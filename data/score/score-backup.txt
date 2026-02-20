@@ -1,0 +1,71 @@
+0 7 print event 7 - red sec 4 comp:103 harmonizer->appogiatura;
+500 pitchshifter1 1400 300 0 50;
+pitchshifter2 600 300 175 50;
+pitchshifter3 800 300 350 50;
+pitchshifter4 1875 300 525 50;
+pitchshifter5 -528 300 700 50;
+pitchshifter6 900 300 875 50;
+pitchshifter7 1300 300 1050 50;
+pitchshifter8 -450 300 1225 50;
+pitchshifter1 1500 300 1400 50;
+pitchshifter2 -300 300 1525 50;
+pitchshifter3 1000 300 1650 50;
+pitchshifter4 -250 300 1775 97;
+pitchshifter-main-out 45 100;
+
+
+0 9 print event 9 - red sec 4 comp:107 sampler2->lip gliss;
+analysis t_c-vae;
+sampler-rec 4;
+sampler2-voice 4;
+classz 0;
+pqmf1 3;
+pqmf2 5;
+pqmf3 4;
+pqmf-reverb 90;
+1500 3f-maxfreq 16;
+3f-lowfreq 20;
+3f-proba 0.42;
+3f-ampfactor 10;
+3f-maxamp 55;
+3f-ampjitter 90;
+3f-attack 100;
+3f-durcoeff 40;
+3f-del-out 0;
+3f2-lowfreq -1550;
+
+
+
+0 1 print event 1 - red sec 1 comp:1 onset detect: 3f;
+3f-spat-ctrl 1 1.55;
+3fps-spat-ctrl 1 -1.55;
+3f-fmode1 0;
+3f-fmode2 0;
+3f-fmode3 0;
+3f-proba 0.05;
+3f-lowfreq -20;
+3f-ampfactor 0;
+3f-maxfreq 24;
+3f-maxamp 50;
+3f-durcoeff 25;
+3f-ampjitter 89;
+3f-del-out 750;
+3f-osc-out 0, 35 1000;
+enable-sigmund 1;
+enable-onset-detect 1;
+onset-3f 1;
+feat-accum 1;
+
+
+0 4 print event 4 - red sec 1 comp:7 harmonizer->do;
+3f-durcoeff 50;
+pitchshifter3 2000 300 0 100;
+phaserot3 0;
+300 soundfile-in-play 0;
+soundfile-in-onset 37;
+phaserot1 5, 30 5000;
+phaserot2 5, 50 5000;
+phaserot3 5, 60 5000;
+pitchshifter-main-out 18, 23 5000;
+5000 soundfile-in-play 1;
+3f-durcoeff 40;

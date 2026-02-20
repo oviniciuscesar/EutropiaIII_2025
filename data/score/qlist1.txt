@@ -1,0 +1,5 @@
+0 0 print section 1, event 0 - beginning of piece;
+0 1 print event 1 - turn on;
+direct 50;
+0 2 print event 2 - end;
+500 direct 0;
