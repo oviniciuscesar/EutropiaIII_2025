@@ -31,10 +31,12 @@ Pure Data patches/abstractions and score for _Eutrópia III_ (2025), a piece for
 
 ## Repository Structure
 
+## Repository Structure
+
 eutropia_III/
 ├── audio/ # Audio samples and recordings
 ├── data/ # Score and configuration data
 │ └── score/ # Performance score files
 ├── patches/ # Pure Data patches and abstractions
-└── EutropiaIII_2026.pdf # Score PDF
-└── EutropiaIII.wav # recording
+├── EutropiaIII_2026.pdf # Score PDF
+└── EutropiaIII.wav # Recording
