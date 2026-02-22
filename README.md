@@ -2,7 +2,11 @@
 
 **For flute and live-electronics**
 
-Pure Data patches/abstractions and score for _Eutrópia III_ (2025), a piece for flute and live-electronics.
+Pure Data patches/abstractions and score for _Eutrópia III_ (2025), for flute and live-electronics.
+
+A binaural recording is available **[here](https://github.com/oviniciuscesar/EutropiaIII_2025/releases/download/recording/EutropiaIII.wav)**
+
+Score is available **[here](https://github.com/oviniciuscesar/EutropiaIII_2025/releases/download/recording/EutropiaIII_2026.score.pdf)**
 
 ---
 
@@ -12,12 +16,12 @@ Pure Data patches/abstractions and score for _Eutrópia III_ (2025), a piece for
 
 - **Pure Data** 0.56-1 or higher
 - **Required externals:**
-  - conTorchionist
-  - timberID
-  - tresf
-  - cyclone
-  - else
-  - ceammc
+  - [conTorchionist](https://github.com/ecrisufmg/contorchionist)
+  - [timberID](https://github.com/wbrent/timbreIDLib)
+  - [tresf](https://github.com/zepadovani/tresf)
+  - [cyclone](https://github.com/porres/pd-cyclone)
+  - [else](https://github.com/porres/pd-else)
+  - [ceammc](https://github.com/ceammc/ceammc.github.io)
 
 ### Hardware
 
