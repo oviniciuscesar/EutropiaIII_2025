@@ -1,6 +1,5 @@
 0 0 print section 1 , event 0 - beginning of piece;
 soundfile-in-name eutropia_III.wav;
-load_live_buffer Fl-jet_wh-N-N-N-N;
 soundfile-in-onset 0;
 soundfile-out-basename testsec1;
 direct 50;
