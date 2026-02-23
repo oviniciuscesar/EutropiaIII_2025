@@ -21,6 +21,7 @@ Score is available **[here](https://github.com/oviniciuscesar/EutropiaIII_2025/r
   - [tresf](https://github.com/zepadovani/tresf)
   - [cyclone](https://github.com/porres/pd-cyclone)
   - [else](https://github.com/porres/pd-else)
+  - [Pd Spectral Toolkit](https://github.com/cooperbaker/Pd-Spectral-Toolkit)
   - [ceammc](https://github.com/ceammc/ceammc.github.io)
   - [gaitacol~](https://github.com/oviniciuscesar/gaitacol)
 
