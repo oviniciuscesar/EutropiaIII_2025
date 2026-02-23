@@ -22,6 +22,7 @@ Score is available **[here](https://github.com/oviniciuscesar/EutropiaIII_2025/r
   - [cyclone](https://github.com/porres/pd-cyclone)
   - [else](https://github.com/porres/pd-else)
   - [ceammc](https://github.com/ceammc/ceammc.github.io)
+  - [gaitacol~](https://github.com/oviniciuscesar/gaitacol)
 
 ### Hardware
 
